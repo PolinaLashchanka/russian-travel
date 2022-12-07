@@ -1,0 +1,32 @@
+.cover__overlay {
+    background-color: rgba(42, 44, 47, 0.3);
+    padding: 33px 16px;
+}
+
+@media screen and (min-width: 425px) {
+    .cover__overlay {
+        padding: 80px 55px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover__overlay {
+        padding: 115px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__overlay {
+        padding: 195px 0;
+        transition: background-color 1s;
+    }
+    .cover__overlay:hover {
+        background-color: rgba(42, 44, 47, 0.8);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__overlay {
+        padding: 245px 0;
+    }
+}

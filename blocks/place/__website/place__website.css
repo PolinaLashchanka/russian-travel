@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .place__website {
+        display: grid;
+        align-items: end;
+        grid-template-rows: auto min-content;
+    }
+}
+
+
+
+
